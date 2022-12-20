@@ -2,7 +2,7 @@ package com.jonathonfvega.tmdbpopularmoviesapp.network.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Genre(
+data class GenreDto(
 
     @SerializedName("id")
     val id: Int? = 0,

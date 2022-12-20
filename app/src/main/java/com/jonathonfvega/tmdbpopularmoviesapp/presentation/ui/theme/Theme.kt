@@ -1,4 +1,4 @@
-package com.jonathonfvega.tmdbpopularmoviesapp.ui.theme
+package com.jonathonfvega.tmdbpopularmoviesapp.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

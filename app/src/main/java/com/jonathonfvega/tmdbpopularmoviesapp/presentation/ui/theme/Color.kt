@@ -1,4 +1,4 @@
-package com.jonathonfvega.tmdbpopularmoviesapp.ui.theme
+package com.jonathonfvega.tmdbpopularmoviesapp.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

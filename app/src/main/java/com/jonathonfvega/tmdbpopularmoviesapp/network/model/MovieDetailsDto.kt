@@ -14,7 +14,7 @@ data class MovieDetailsDto(
     var budget: Int? = 0,
 
     @SerializedName("genres")
-    var genres: List<Genre>? = null,
+    var genres: List<GenreDto>? = null,
 
     @SerializedName("id")
     var id: Int? = 0,
@@ -27,6 +27,15 @@ data class MovieDetailsDto(
 
     @SerializedName("overview")
     var overview: String? = null,
+
+    @SerializedName("poster_path")
+    var posterPath: String? = null,
+
+    @SerializedName("release_date")
+    var releaseDate: String? = null,
+
+    @SerializedName("revenue")
+    var revenue: Long? = 0,
 
     @SerializedName("status")
     var status: String? = null,

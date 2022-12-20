@@ -1,4 +1,4 @@
-package com.jonathonfvega.tmdbpopularmoviesapp
+package com.jonathonfvega.tmdbpopularmoviesapp.presentation.ui.movie_grid
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
@@ -27,6 +27,12 @@ constructor(
     val page = mutableStateOf(1)
 
     var movieListScrollPosition = 0
+
+    var selectedMovieId: Int? = null
+
+    fun setMovieId(movieId: Int) {
+        selectedMovieId = movieId
+    }
 
     init {
         newSearch()
@@ -75,7 +81,6 @@ constructor(
     }
 
     fun onChangeMovieScrollPosition(position: Int){
-//        println(position)
         movieListScrollPosition = position
     }
 
