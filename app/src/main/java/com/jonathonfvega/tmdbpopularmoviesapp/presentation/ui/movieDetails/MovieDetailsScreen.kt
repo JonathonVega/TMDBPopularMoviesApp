@@ -148,7 +148,7 @@ fun movieCrewCard(
         Column(modifier = Modifier
             .background(TMDBColor)) {
             Row() {
-                Text(text = "Cast", color = Color.White, fontSize = 20.sp)
+                Text(text = "Crew", color = Color.White, fontSize = 20.sp)
             }
             Row(modifier = Modifier
                 .horizontalScroll(rememberScrollState())
